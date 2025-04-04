@@ -5,8 +5,6 @@ import (
 	"strconv"
 	"sync"
 	"time"
-
-	"github.com/ArturDV-main/Web-App-Advanced/internal/nserver"
 )
 
 func main() {
@@ -36,7 +34,6 @@ func main() {
 		fmt.Println(value)
 	}
 	fmt.Println(time.Since(start))
-	nserver.StartServer()
 }
 
 func MergeChannels[T any](channels ...chan T) <-chan T {

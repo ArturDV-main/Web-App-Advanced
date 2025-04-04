@@ -1,6 +1,13 @@
 package main
 
-func main() {
+import (
+	"fmt"
 
-	print("Hello from Server!")
+	"github.com/ArturDV-main/Web-App-Advanced/internal/nserver"
+)
+
+func main() {
+	var s nserver.Nserver
+	s.StartServer("80")
+	fmt.Println("Grate.")
 }

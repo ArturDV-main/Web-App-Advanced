@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Светло-серый фон */
+}
+.header {
+    background-color: #343a40; /* Темно-серый */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #495057; /* Темно-синий */
+    padding: 10px;
+}
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+.nav a:hover {
+    background-color: #6c757d; /* Светло-серый при наведении */
+    border-radius: 5px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Белый фон для контейнера */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #343a40; /* Темно-серый */
+}
+p {
+    color: #495057; /* Темно-синий */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Синий */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3; /* Темно-синий при наведении */
+}
+.section {
+    margin-bottom: 20px;
+}
+.card {
+    border: 1px solid #dee2e6; /* Светло-серый */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #343a40; /* Темно-серый */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #007bff; /* Синий при наведении */
+}
